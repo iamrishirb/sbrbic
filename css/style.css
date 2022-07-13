@@ -2738,13 +2738,13 @@ ul {
 /* line 164, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */
 .banner_part:after {
   position: absolute;
-  top: 163px;
-  width: 41%;
-  height: 69%;
+  top: 220px;
+  width: 20%;
+  height: 34%;
   content: "";
   background-image: url(../img/banner_img.png);
   background-size: 100% 100%;
-  right: 9%;
+  right: 14%;
 }
 
 @media (max-width: 576px) {
@@ -2810,7 +2810,7 @@ ul {
     content: "";
     background-image: url(../img/banner_img.png);
     background-size: contain;
-    right: 5%;
+    right: 12%;
     bottom: 0;
     top: auto;
     background-repeat: no-repeat;
@@ -7294,6 +7294,32 @@ h1, h2, h3, h4, h5, h6 {
 /* line 244, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
 .footer-area .btn_1 {
   margin-top: 0px;
+}
+
+.padding_top_short {
+  padding-top: 80px;
+}
+
+.teacher {
+  display: block;
+  margin: 30px 0px !important;
+}
+
+.gallery-slider {
+  width: 90%;
+  margin: 60px auto;
+  max-width: 1000px;
+}
+
+.slide-image {
+  max-width: 1000px;
+  height: 600px;
+}
+
+.slide-image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
